@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathesh's portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media_query.css">
+
+    <!-- Google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+
+    <!--Font Awesome  Icon link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Friconix link-->   
+    <script defer src="https://friconix.com/cdn/friconix-0.2803.js"> </script> 
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <nav class="nav-bar">
+        <h1>Mathesh</h1>
+
+        <ul class="nav-links">
+            <li class="nav-link"><a href="#about">About</a></li>
+            <li class="nav-link"><a href="#skills">Skills</a></li>
+            <li class="nav-link"><a href="#projects">Projects</a></li>
+            <li class="nav-link"><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="navbar-menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Side Navbar -->
+    <section class="side-navbar">
+        <h1><i class="fa-duotone fa-x"></i></h1>
+
+        <ul class="sidenav-links">
+            <li class="sidenav-link"><a href="#about">About</a></li>
+            <li class="sidenav-link"><a href="#skills">Skills</a></li>
+            <li class="sidenav-link"><a href="#projects">Projects</a></li>
+            <li class="sidenav-link"><a href="#contact">Contact</a></li>
+        </ul>
+    </section>
+
+    <!--About-->
+    <section id="about" class="about">
+        <div class="about-img">
+            <img src="image/img.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <div class="about-text">
+                <h1 class="title">Hi, I'm <span>Mathesh.</span></h1>
+                <br>
+                <h4 class="text_1">Web Developer and Sociologist</h4>
+            </div>
+            <div class="about-btn">
+                <button class="cv" onclick="window.open('Mathesh_Web-DeveloperResume.pdf')">Download CV</button>
+                <a onclick="window.open('https://www.linkedin.com/in/mathesh51/', target='_blank')"><h1><i class="fi-cnsuxl-linkedin"></i></h1></a>
+                <a onclick="window.open('https://github.com/mathesh-w', target='_blank')"><h1><i class="fi-xnsuxl-github"></i> </h1></a>
+            </div>
+        </div>
+    </section>
+
+    <!--Skills-->
+    <section id="skills" class="skills">
+        <p class="para" style="color: rgb(85, 85, 85);">Explore My</p>
+        <h1 class="title">SKILLS</h1>
+
+        <div class="skills-container">
+
+        <div class="fontend-skills">
+           <h2 class="skills-sub-heading">Fronted Skills</h2>
+           
+           <div>
+            <h6><i class="fa-regular fa-square-check"></i> HTML</h6>
+            <h6><i class="fa-regular fa-square-check"></i> CSS</h6>
+            <h6><i class="fa-regular fa-square-check"></i> JavaScript</h6>
+            <h6><i class="fa-regular fa-square-check"></i> Bootstrap</h6>
+           </div>
+        </div>
+
+        <div class="backend-skills">
+            <h2 class="skills-sub-heading">Backend Skills</h2>
+
+            <div>
+                <h6><i class="fa-regular fa-square-check"></i> PHP</h6>
+                <h6><i class="fa-regular fa-square-check"></i> SQL</h6>
+                <h6><i class="fa-regular fa-square-check"></i> Git</h6>
+            </div>
+        </div>
+
+    </div>
+    </section>
+
+    <!--Projects-->
+    <section id="projects" class="projects">
+        <p class="para" style="color: rgb(85, 85, 85);">View My</p>
+        <h1 class="title">Projects</h1>
+
+        <div class="project-container">
+
+            <div class="project-box">
+                <article>
+                    <img src="image/icons/organizer.png" alt="">
+                </article>
+                <p class="para_project">Event Planner Website</p>
+                <button>GitHub</button>
+            </div>
+
+            <div class="project-box">
+                <article>
+                    <img src="image/icons/resume.png" alt="">
+                </article>
+                <p class="para_project">Portfolio Website</p>
+                <button>GitHub</button>
+            </div>
+        </div>
+    </section>
+    
+
+    <!--Contact-->
+    <section id="contact" class="contact">
+        <p class="para">Get in Touch</p>
+        <h2 class="contact-header">CONTACT ME</h2>
+
+        <div class="contact-form">
+            <br>
+            <form action="">
+                <input type="text" placeholder="Name">
+                <br>
+                <input type="text" placeholder="E-mail">
+                <br>
+                <input type="text" placeholder="Message" class="message">
+                <br>
+                <button class="send"><i class="fa-solid fa-arrow-up"></i>  Send</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-name">
+            <h2>mathesh.me</h2>
+        </div>
+
+        <div class="footer-copy-rights">
+            <h4>Copyright &copy; 2024 Mathesh</h4>
+        </div>
+
+        <div class="footer-icon-links">
+            <a href="https://www.linkedin.com/in/mathesh51/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/mathesh-w"><i class="fa-brands fa-github" target="_blank"></i></a>
+            <a href="https://x.com/JustMathesh" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

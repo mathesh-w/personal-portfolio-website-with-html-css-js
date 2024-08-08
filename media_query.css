@@ -1,0 +1,92 @@
+
+@media screen and (max-width:768px) {
+
+    .navbar-menu-toggle {
+    display: block;
+ }
+
+ .nav-links {
+    display: none;
+ }
+
+ 
+.footer-name > h2 {
+   font-weight: 400;
+}
+
+.footer-copy-rights > h4 {
+   font-weight: 400;
+}
+
+.footer-icon-links > a {
+   font-weight: 600;
+   font-size: 1.5rem;
+   padding: 5px;
+}
+}
+
+@media screen and (max-width: 600px) {
+   footer {
+      grid-template-columns: repeat(1, 1fr);
+   }
+
+   footer > div {
+      margin-bottom: 1rem;
+   }
+
+   .contact-form > form > input {
+      width: 13rem;
+    }
+
+    .send {
+      padding: 16px 36px;
+      border-radius: 14px;
+      font-size: 14px;
+    }
+}
+
+@media screen and (max-width:451px) {
+   .about-img{
+      width: 400px;
+   }
+
+   .about-img > img {
+      height: 250px;
+   }
+
+   .about-btn > button, .about-btn > a {
+      margin: 7px 12px;
+  }
+
+  .about-btn > button {
+   padding: 12px 24px;
+}
+
+.about-btn > a > h1{
+   font-size: 25px;
+}
+
+.project-box > article  > img{
+   width: 150px;
+   height: 150px;
+}
+
+.project-box > button {
+   padding: 12px 25px;
+}
+
+.fontend-skills , .backend-skills {
+   padding: 2.5rem;
+}
+
+.title{
+   font-size: 2.2rem;
+   font-weight: 600;
+   text-align: center;
+}
+
+.text_1{
+   font-size: 1.1rem;
+}
+
+}
